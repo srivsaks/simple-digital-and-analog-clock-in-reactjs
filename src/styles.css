@@ -1,0 +1,44 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.analog-clock {
+  height: 200px;
+  width: 200px;
+  border: 1px solid black;
+  border-radius: 50%;
+  position: relative;
+}
+
+.sec {
+  height: 100px;
+  position: absolute;
+  background-color: green;
+  width: 2px;
+  left: 50%;
+  transform-origin: bottom left;
+  transform: rotate(30deg);
+}
+
+.hour {
+  height: 60px;
+  position: absolute;
+  background-color: blue;
+  width: 5px;
+  left: 50%;
+  top: 20%;
+  transform-origin: bottom left;
+  transform: rotate(0deg);
+}
+
+.min {
+  height: 90px;
+  position: absolute;
+  background-color: palevioletred;
+  width: 3.5px;
+  left: 50%;
+  top: 5%;
+  transform-origin: bottom left;
+  transform: rotate(0deg);
+}
